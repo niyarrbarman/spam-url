@@ -21,6 +21,10 @@ https://google.com -> https%3A%2F%2Fgoogle.com
 
 call:
 https://127.0.0.1:5000/predict/https%3A%2F%2Fgoogle.com
+
+or 
+
+curl -X GET "http://127.0.0.1:5000/predict/curl -X GET "http://127.0.0.1:5000/predict/https%3A%2F%2Fgoogle.com"
 ```
 
 to do:
