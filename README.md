@@ -12,7 +12,7 @@ python3 main.py
 
 predict:
 ```
-call the /predict endpoint with a encoded url
+call the /predict endpoint with an encoded url
 
 example:
 
