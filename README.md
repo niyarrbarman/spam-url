@@ -25,5 +25,5 @@ https://127.0.0.1:5000/predict/https%3A%2F%2Fgoogle.com
 
 to do:
 - [x] model + server
-- [ ] add whitelist of domains
+- [ ] add whitelist of domains 
 
