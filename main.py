@@ -17,9 +17,9 @@ class Model:
             final_url = self.get_final_url(url)
             x = self.vectorizer.transform([final_url])
             if self.model.predict(x)[0]:
-                return 'Spam', final_url
+                return 'Spam'
             else:
-                return 'Not Spam', final_url
+                return 'Not Spam'
         except Exception as e:
             return e
 
