@@ -10,6 +10,7 @@ class Model:
         self.model = pickle.load(open('SpamURL_Classifier.pkl', 'rb'))
         self.vectorizer = pickle.load(open('vectorizer.pkl', 'rb'))
 
+
     def predict(self, url):
         try:
             if not url.startswith("https://") and not url.startswith("http://"):
@@ -42,3 +43,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
